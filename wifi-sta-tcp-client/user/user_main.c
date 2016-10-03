@@ -472,6 +472,7 @@ void ICACHE_FLASH_ATTR user_init(void)
 	uart_init(BIT_RATE_115200, BIT_RATE_115200);
 	os_delay_us(1000);
 
+
 	#ifdef PLATFORM_DEBUG
 	ets_uart_printf("ESP8266 platform starting...\r\n");
 	#endif
